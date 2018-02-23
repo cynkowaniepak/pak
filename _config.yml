@@ -1,18 +1,22 @@
 # Site settings
-title: Jekyll-Uno
+#title: Jekyll-Uno
+title: PAK Cynkowanie Ogniowe
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+#url: 'http://joshgerdes.com/jekyll-uno'
+url: 'https://cynkowaniepak.github.io/pak/'
+#baseurl: '/jekyll-uno'
+baseurl: '/pak'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  # name: 'Josh Gerdes'
+  email: rafaljuchnik@op.pl
+  mobile: 793 616 752
+  # twitter_username: joshgerdes
+  # facebook_username: joshgerdes
+  # github_username:  joshgerdes
+  # linkedin_username:  joshgerdes
 
 defaults:
   -
@@ -23,6 +27,8 @@ defaults:
         layout: 'post'
 
 # Build settings
+gems: ['jekyll-paginate']
+
 destination: _site
 paginate: 10
 permalink: /:year/:title/
@@ -39,5 +45,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-plugins: ['jekyll-paginate']
+plugins_dir: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
