@@ -7,7 +7,7 @@
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
-          <img src="{{ site.baseurl }}/images/profile.jpg" class="user-image" alt="My Profile Photo">
+          <img src="{{ site.baseurl }}/images/pak-logo-2.png" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
@@ -16,7 +16,12 @@
         <div class="navigation-wrapper">
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="blog-button">Galeria</a></li>
+              <li class="navigation__item">
+                <a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="blog-button">
+                <i class="icon icon-photo"></i>
+                <br>
+                Galeria</a>
+              </li>
             </ul>
           </nav>
           <nav class="cover-navigation navigation--social">
@@ -26,7 +31,7 @@
               <li class="navigation__item">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
                   <i class="icon icon-mail"></i>
-                  <span class="label">Email</span>
+                  <span class="label">Email</span>rafaljuchnik@op.pl
                 </a>
               </li>
             {% endif %}
@@ -35,7 +40,7 @@
               <li class="navigation__item">
                 <a href="tel:{{ site.author.mobile }}" title="Mobile {{ site.author.mobile }}" target="_blank">
                   <i class="icon icon-telephone"></i>
-                  <span class="label">Telefon</span>
+                  <span class="label">Telefon</span>793 616 752
                 </a>
               </li>
             {% endif %}
