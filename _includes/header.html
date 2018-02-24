@@ -17,33 +17,26 @@
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item">
-                <a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="blog-button">
+                <a href="{{ site.baseurl }}/#galeria" title="link to {{ site.title }} blog" class="blog-button">
                 <i class="icon icon-photo"></i>
-                <br>
                 Galeria</a>
               </li>
-            </ul>
-          </nav>
-          <nav class="cover-navigation navigation--social">
-            <ul class="navigation">
-            {% if site.author.email %}
-              <!-- Email -->
-              <li class="navigation__item">
-                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
-                  <span class="label">Email</span>rafaljuchnik@op.pl
-                </a>
-              </li>
-            {% endif %}
-            {% if site.author.mobile %}
-              <!-- Mobile -->
-              <li class="navigation__item">
-                <a href="tel:{{ site.author.mobile }}" title="Mobile {{ site.author.mobile }}" target="_blank">
-                  <i class="icon icon-telephone"></i>
-                  <span class="label">Telefon</span>793 616 752
-                </a>
-              </li>
-            {% endif %}
+              {% if site.author.email %}
+                <li class="navigation__item">
+                  <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
+                    <i class="icon icon-mail"></i>
+                    rafaljuchnik@op.pl
+                  </a>
+                </li>
+              {% endif %}
+              {% if site.author.mobile %}
+                <li class="navigation__item">
+                  <a href="tel:{{ site.author.mobile }}" title="Mobile {{ site.author.mobile }}" target="_blank">
+                    <i class="icon icon-telephone"></i>
+                    793 616 752
+                  </a>
+                </li>
+              {% endif %}
             </ul>
           </nav>
         </div>
