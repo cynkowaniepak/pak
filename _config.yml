@@ -6,7 +6,7 @@ Bazujemy na stabilnej współpracy z ocynkowniami w całym regionie.'
 url: http://pakcynkowanieogniowe.pl/
 #url: 'https://cynkowaniepak.github.io/pak/'
 #baseurl: '/pak'
-baseurl: /pak.github.io/
+baseurl: /
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
